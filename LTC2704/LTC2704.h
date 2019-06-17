@@ -146,6 +146,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define  LTC2704_DAC_NEG2_POINT_5_TO_7_POINT_5_BIPOLAR   0x05
 //
 
+// Command codes
+#define W_B1_SPAN_DACN	0x2
+#define W_B1_CODE_DACN	0x3
+#define U_B1_B2_DACN	0x4
+#define U_B1_B2_DACALL	0x5
+#define W_B1_SPAN_DACN_U_B1_B2_DACN	0x6
+#define W_B1_CODE_DACN_U_B1_B2_DACN	0x7
+#define W_B1_SPAN_DACN_U_B1_B2_DACALL	0x8
+#define W_B1_CODE_DACN_U_B1_B2_DACALL	0x9
+#define R_B1_SPAN_DACN	0xA
+#define R_B1_CODE_DACN	0xB
+#define R_B2_SPAN_DACN	0xC
+#define R_B2_CODE_DACN	0xD
+#define SLEEP_DACN	0xE
+#define NO_OP	0xF
+
 
 
 //! Write the 16-bit dac_code to the LTC2704
